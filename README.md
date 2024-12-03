@@ -1,8 +1,3 @@
-# Stock Trading RL Agents
-Here’s a well-structured and detailed README file for the stock trading simulation project using the S&P 500 stock dataset.
-
----
-
 # **Stock Trading Simulation Using Reinforcement Learning**
 
 This project demonstrates a stock trading simulation environment using reinforcement learning (RL). It implements various RL agents to learn and optimize trading strategies, providing insights into their performance in a realistic stock market setting. The dataset used in this simulation is based on S&P 500 stock data.
