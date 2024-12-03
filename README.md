@@ -113,8 +113,8 @@ pip install -r requirements.txt
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/username/stock-trading-rl.git
-   cd stock-trading-rl
+   git clone git@github.com:muresaijaideepreddy/Stock_prediction_RL.git
+   cd Stock_prediction_RL/
    ```
 
 2. **Prepare the Dataset**:  
