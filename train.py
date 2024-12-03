@@ -35,10 +35,10 @@ def train_agent(env, agent, agent_type="random", episodes=100):
         print(f"Episode {episode+1}/{episodes}, Total Reward: {total_reward}")
     return rewards
 
-random_rewards = train_agent(env, random_agent, agent_type="random", episodes=10)
-q_learning_rewards = train_agent(env, q_learning_agent, agent_type="q_learning", episodes=10)
-dqn_rewards = train_agent(env, dqn_agent, agent_type="dqn", episodes=10)
-sarsa_rewards = train_agent(env, sarsa_agent, agent_type="sarsa", episodes=10) 
+random_rewards = train_agent(env, random_agent, agent_type="random", episodes=100)
+q_learning_rewards = train_agent(env, q_learning_agent, agent_type="q_learning", episodes=100)
+dqn_rewards = train_agent(env, dqn_agent, agent_type="dqn", episodes=100)
+sarsa_rewards = train_agent(env, sarsa_agent, agent_type="sarsa", episodes=100) 
 plt.figure(figsize=(12, 6))
 plt.plot(random_rewards, label='Random Agent')
 plt.plot(q_learning_rewards, label='Q-Learning Agent')
