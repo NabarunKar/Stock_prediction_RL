@@ -138,6 +138,10 @@ pip install -r requirements.txt
    - DQN Agent:  
      ```bash
      python dqn_agent.py
+     ```
+   - [Python notebook](https://github.com/NabarunKar/Stock_prediction_RL/blob/main/Financial_Portfolio_Optimization_CSCE_642.ipynb):  
+     ```bash
+     Run each cell of the notebook
      ```  
 
 ---
